@@ -1,0 +1,28 @@
+Client_Folder
+--
++ client.py
++ "Alice in Wonderland.txt"
+--
+-----------------------client.py---------------------------
++ socket (AF_INET,SOCK_DGRAM ): return socket
++ rawinput( String ) : return String
++ sendto(String, (address)): void
++ open(String): void
++ recvfrom(int): return String, (address)
++ write(String): void
++ close(): void
+
+
+Sever_Folder
+--
++ server.py
++ "Alice in Wonderland_copy.txt"
+--
+-----------------------server.py---------------------------
++ socket (AF_INET,SOCK_DGRAM ): return socket
++ bind(address) : return String
++ recvfrom(int): return String, (address)
++ open(String): void
++ read(int): return String
++ sendto(String, (address)): void
++ close(): void
